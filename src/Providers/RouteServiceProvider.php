@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Arcanedev\Support\Providers;
+namespace Zitkala\Support\Providers;
 
-use Arcanedev\Support\Routing\Concerns\RegistersRouteClasses;
+use Zitkala\Support\Routing\Concerns\RegistersRouteClasses;
 use Illuminate\Foundation\Support\Providers\RouteServiceProvider as IlluminateServiceProvider;
 
 /**

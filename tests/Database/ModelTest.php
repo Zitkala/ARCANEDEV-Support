@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Arcanedev\Support\Tests\Database;
+namespace Zitkala\Support\Tests\Database;
 
-use Arcanedev\Support\Tests\TestCase;
+use Zitkala\Support\Tests\TestCase;
 
 /**
  * Class     ModelTest
@@ -18,7 +18,7 @@ class ModelTest extends TestCase
      | -----------------------------------------------------------------
      */
 
-    /** @var  \Arcanedev\Support\Database\PrefixedModel */
+    /** @var  \Zitkala\Support\Database\PrefixedModel */
     protected $model;
 
     /* -----------------------------------------------------------------
@@ -30,7 +30,7 @@ class ModelTest extends TestCase
     {
         parent::setUp();
 
-        $this->model = new \Arcanedev\Support\Tests\Stubs\Models\Product;
+        $this->model = new \Zitkala\Support\Tests\Stubs\Models\Product;
     }
 
     public function tearDown(): void
@@ -50,7 +50,7 @@ class ModelTest extends TestCase
     {
         $expectations = [
             \Illuminate\Database\Eloquent\Model::class,
-            \Arcanedev\Support\Database\PrefixedModel::class,
+            \Zitkala\Support\Database\PrefixedModel::class,
         ];
 
         foreach ($expectations as $expected) {

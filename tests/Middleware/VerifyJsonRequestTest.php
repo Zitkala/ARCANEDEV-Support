@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Arcanedev\Support\Tests\Middleware;
+namespace Zitkala\Support\Tests\Middleware;
 
-use Arcanedev\Support\Middleware\VerifyJsonRequest;
-use Arcanedev\Support\Tests\TestCase;
+use Zitkala\Support\Middleware\VerifyJsonRequest;
+use Zitkala\Support\Tests\TestCase;
 use Illuminate\Routing\Router;
 
 /**

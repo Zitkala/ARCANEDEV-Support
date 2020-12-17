@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Arcanedev\Support\Providers;
+namespace Zitkala\Support\Providers;
 
 /**
  * Class     CommandServiceProvider

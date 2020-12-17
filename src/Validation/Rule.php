@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Arcanedev\Support\Validation;
+namespace Zitkala\Support\Validation;
 
 use Illuminate\Contracts\Validation\Rule as RuleContract;
 

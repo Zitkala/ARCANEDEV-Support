@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Arcanedev\Support\Database;
+namespace Zitkala\Support\Database;
 
 use Closure;
 use Illuminate\Database\Migrations\Migration as IlluminateMigration;

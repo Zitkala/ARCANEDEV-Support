@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Arcanedev\Support\Tests\Stubs;
+namespace Zitkala\Support\Tests\Stubs;
 
-use Arcanedev\Support\Providers\RouteServiceProvider;
+use Zitkala\Support\Providers\RouteServiceProvider;
 
 /**
  * Class     RouteServiceProviderWithRouteClasses
@@ -19,7 +19,7 @@ class RouteServiceProviderWithRouteClasses extends RouteServiceProvider
      */
 
     protected $routesClasses = [
-        \Arcanedev\Support\Tests\Stubs\PagesRoutes::class,
+        \Zitkala\Support\Tests\Stubs\PagesRoutes::class,
     ];
 
     /* -----------------------------------------------------------------

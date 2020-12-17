@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Arcanedev\Support\Tests;
+namespace Zitkala\Support\Tests;
 
-use Arcanedev\Support\Stub;
+use Zitkala\Support\Stub;
 use Illuminate\Support\Str;
 
 /**
@@ -19,7 +19,7 @@ class StubTest extends TestCase
      | -----------------------------------------------------------------
      */
 
-    /** @var  \Arcanedev\Support\Stub */
+    /** @var  \Zitkala\Support\Stub */
     private $stub;
 
     /* -----------------------------------------------------------------
@@ -53,7 +53,7 @@ class StubTest extends TestCase
             $file = $this->getFixturesPath('stubs/composer.stub')
         );
 
-        static::assertInstanceOf(\Arcanedev\Support\Stub::class, $this->stub);
+        static::assertInstanceOf(\Zitkala\Support\Stub::class, $this->stub);
 
         $fileContent = file_get_contents($file);
 

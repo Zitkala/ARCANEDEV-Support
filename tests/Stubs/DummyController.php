@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Arcanedev\Support\Tests\Stubs;
+namespace Zitkala\Support\Tests\Stubs;
 
 use Illuminate\Routing\Controller;
 

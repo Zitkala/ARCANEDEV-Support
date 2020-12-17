@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Arcanedev\Support\Providers;
+namespace Zitkala\Support\Providers;
 
-use Arcanedev\Support\Providers\Concerns\InteractsWithApplication;
+use Zitkala\Support\Providers\Concerns\InteractsWithApplication;
 use Illuminate\Support\ServiceProvider as IlluminateServiceProvider;
 
 /**

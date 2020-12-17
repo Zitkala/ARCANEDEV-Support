@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Arcanedev\Support\Tests\Stubs;
+namespace Zitkala\Support\Tests\Stubs;
 
-use Arcanedev\Support\Providers\PackageServiceProvider;
+use Zitkala\Support\Providers\PackageServiceProvider;
 
 /**
  * Class     TestPackageServiceProvider

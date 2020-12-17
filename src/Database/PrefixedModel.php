@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Arcanedev\Support\Database;
+namespace Zitkala\Support\Database;
 
 use Illuminate\Database\Eloquent\Model;
 

@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Arcanedev\Support\Exceptions;
+namespace Zitkala\Support\Exceptions;
 
 use Exception;
 

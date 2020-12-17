@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Arcanedev\Support\Tests\Stubs\Models;
+namespace Zitkala\Support\Tests\Stubs\Models;
 
-use Arcanedev\Support\Database\PrefixedModel;
+use Zitkala\Support\Database\PrefixedModel;
 
 /**
  * Class     Product

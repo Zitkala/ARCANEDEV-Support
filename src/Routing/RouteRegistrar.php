@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Arcanedev\Support\Routing;
+namespace Zitkala\Support\Routing;
 
-use Arcanedev\Support\Routing\Concerns\RegistersRouteClasses;
+use Zitkala\Support\Routing\Concerns\RegistersRouteClasses;
 use Illuminate\Contracts\Routing\Registrar;
 use Illuminate\Routing\Router;
 use Illuminate\Support\Traits\ForwardsCalls;

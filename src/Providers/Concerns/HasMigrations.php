@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Arcanedev\Support\Providers\Concerns;
+namespace Zitkala\Support\Providers\Concerns;
 
 /**
  * Trait     HasMigrations

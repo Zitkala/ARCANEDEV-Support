@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Arcanedev\Support\Tests;
+namespace Zitkala\Support\Tests;
 
-use Arcanedev\Support\Tests\Stubs\RouteServiceProviderWithRouteClasses;
+use Zitkala\Support\Tests\Stubs\RouteServiceProviderWithRouteClasses;
 use Orchestra\Testbench\TestCase as BaseTestCase;
 
 /**

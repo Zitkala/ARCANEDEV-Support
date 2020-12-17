@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Arcanedev\Support\Routing\Concerns;
+namespace Zitkala\Support\Routing\Concerns;
 
 /**
  * Trait     RegistersRouteClasses

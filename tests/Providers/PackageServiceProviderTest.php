@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace Arcanedev\Support\Tests\Providers;
+namespace Zitkala\Support\Tests\Providers;
 
-use Arcanedev\Support\Exceptions\PackageException;
-use Arcanedev\Support\Tests\Stubs\{InvalidPackageServiceProvider, TestPackageServiceProvider};
-use Arcanedev\Support\Tests\TestCase;
+use Zitkala\Support\Exceptions\PackageException;
+use Zitkala\Support\Tests\Stubs\{InvalidPackageServiceProvider, TestPackageServiceProvider};
+use Zitkala\Support\Tests\TestCase;
 
 /**
  * Class     PackageServiceProviderTest
@@ -20,7 +20,7 @@ class PackageServiceProviderTest extends TestCase
      | -----------------------------------------------------------------
      */
 
-    /** @var  \Arcanedev\Support\Tests\Stubs\TestPackageServiceProvider */
+    /** @var  \Zitkala\Support\Tests\Stubs\TestPackageServiceProvider */
     private $provider;
 
     /* -----------------------------------------------------------------
@@ -54,9 +54,9 @@ class PackageServiceProviderTest extends TestCase
     {
         $expectations = [
             \Illuminate\Support\ServiceProvider::class,
-            \Arcanedev\Support\Providers\ServiceProvider::class,
-            \Arcanedev\Support\Providers\PackageServiceProvider::class,
-            \Arcanedev\Support\Tests\Stubs\TestPackageServiceProvider::class,
+            \Zitkala\Support\Providers\ServiceProvider::class,
+            \Zitkala\Support\Providers\PackageServiceProvider::class,
+            \Zitkala\Support\Tests\Stubs\TestPackageServiceProvider::class,
         ];
 
         foreach ($expectations as $expected) {

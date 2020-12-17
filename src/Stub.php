@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Arcanedev\Support;
+namespace Zitkala\Support;
 
 /**
  * Class     Stub

@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Arcanedev\Support\Tests\Http;
+namespace Zitkala\Support\Tests\Http;
 
-use Arcanedev\Support\Tests\Stubs\FormRequestController;
-use Arcanedev\Support\Tests\TestCase;
+use Zitkala\Support\Tests\Stubs\FormRequestController;
+use Zitkala\Support\Tests\TestCase;
 use Illuminate\Routing\Router;
 
 /**

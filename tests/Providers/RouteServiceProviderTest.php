@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Arcanedev\Support\Tests\Providers;
+namespace Zitkala\Support\Tests\Providers;
 
-use Arcanedev\Support\Tests\TestCase;
+use Zitkala\Support\Tests\TestCase;
 
 /**
  * Class     RouteServiceProviderTest

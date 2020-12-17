@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Arcanedev\Support\Providers;
+namespace Zitkala\Support\Providers;
 
-use Arcanedev\Support\Exceptions\PackageException;
-use Arcanedev\Support\Providers\Concerns\{
+use Zitkala\Support\Exceptions\PackageException;
+use Zitkala\Support\Providers\Concerns\{
     HasAssets, HasConfig, HasFactories, HasMigrations, HasTranslations, HasViews
 };
 use Illuminate\Contracts\Foundation\Application;
@@ -162,7 +162,7 @@ abstract class PackageServiceProvider extends ServiceProvider
     /**
      * Check package name.
      *
-     * @throws \Arcanedev\Support\Exceptions\PackageException
+     * @throws \Zitkala\Support\Exceptions\PackageException
      */
     protected function checkPackageName(): void
     {
